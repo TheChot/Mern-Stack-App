@@ -14,3 +14,15 @@ In the tutorial we ran the two servers simutaneously but on heroku we
 wont have access to the front end client
 so a script is placed in the backend that will command heroku to look in the front 
 end before the backend unless it is hitting a specific route...
+
+allows the app to work on firefox without dev tools
+window.__REDUX_DEVTOOLS_EXTENSION__ ? window.__REDUX_DEVTOOLS_EXTENSION__() : f => f
+
+to send the body of a post request with postman
+go to headers tab
+set key to content type
+set the value to application/json
+then go to the body and create an object
+
+
+
