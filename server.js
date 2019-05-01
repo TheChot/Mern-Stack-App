@@ -28,7 +28,7 @@ app.use('/api/items', items);
 //Serve Static assets if in production\
 if(process.env.NODE_ENV === 'production'){
     //Set Static folder
-    app.use(epress.static('client/build'));
+    app.use(express.static('client/build'));
 
     //anything
     app.get('*', (req, res) => {
