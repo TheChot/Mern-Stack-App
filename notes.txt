@@ -1,0 +1,16 @@
+//bash commands peformed
+npm init
+npm i redux react-redux redux-thunk
+npm i mongoose body-parser concurrently express
+npm i axios
+npm uninstall
+
+//in lesson 8
+we send the app to heroku but we command react to build
+only when it is imported to heroku
+
+
+In the tutorial we ran the two servers simutaneously but on heroku we
+wont have access to the front end client
+so a script is placed in the backend that will command heroku to look in the front 
+end before the backend unless it is hitting a specific route...
